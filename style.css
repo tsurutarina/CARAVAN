@@ -199,3 +199,57 @@ footer{
 .footer-text{
   color:#FFF;
 }
+
+@media screen and (max-width:426px) {
+  header{
+    width:100%;
+  }
+  .social{
+    display:none;
+  }
+  .nav-list{
+    width:100%;
+  }
+  .nav-list-item{
+    width:100%;
+    margin-left:10px;
+  }
+  .main-visual-content{
+    width:100%;
+  }
+  main{
+    width:100%;
+    display:block;
+  }
+  .blog{
+    width:100%;
+    margin:0;
+  }
+  .blog-box{
+    padding:0 2%;
+  }
+  .bolg-image{
+    width:49%;
+  }
+ .blog-text{
+   width:49%;
+   padding-top:5px;
+ }
+ .pagination{
+   margin-bottom:50px;
+ }
+ .sidebar{
+   width:100%;
+ }
+ .sidebar-content{
+   padding-left:3%;
+   padding-right:3%;
+ }
+ .instaguram-box{
+   width:48%;
+   padding-top:48%;
+ }
+ .instagram-box:nth-child(add){
+   margin-right:4%;
+ }
+}
